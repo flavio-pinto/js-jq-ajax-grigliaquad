@@ -16,16 +16,18 @@
 
 /* STYLES */
 #app {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 60px 60px 60px 60px 60px 60px;
-    grid-template-rows: 60px 60px 60px 60px 60px 60px;
-    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 .box {
     border: 1px solid black;
+    height: calc(100% / 6);
+    width: calc(100% / 6);
     display: flex;
     justify-content: center;
     align-items: center;
